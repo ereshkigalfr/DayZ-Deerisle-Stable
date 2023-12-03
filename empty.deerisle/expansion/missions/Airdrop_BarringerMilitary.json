@@ -1,0 +1,23 @@
+{
+  "Enabled": 1,
+  "Weight": 200,
+  "MissionMaxTime": 1200,
+  "MissionName": "Random_BarringerMilitary",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 1,
+  "Height": 450,
+  "Speed": 25,
+  "Container": "Random",
+  "DropLocation": {
+    "x": 12957.142857142857142857142857,
+    "z": 1494.2857142857142857142857143,
+    "Name": "Barringer Island Military Camp",
+    "Radius": 250
+  },
+  "Loot": [],
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1
+}

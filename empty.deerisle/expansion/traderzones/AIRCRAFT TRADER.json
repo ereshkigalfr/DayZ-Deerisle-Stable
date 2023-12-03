@@ -1,0 +1,13 @@
+{
+  "m_Version": 6,
+  "m_DisplayName": "AIRCRAFT TRADER",
+  "Position": [
+    10117,
+    3.5474999,
+    6469
+  ],
+  "Radius": 35,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 50,
+  "Stock": {}
+}

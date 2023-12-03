@@ -1,0 +1,23 @@
+{
+  "Enabled": 1,
+  "Weight": 355,
+  "MissionMaxTime": 1200,
+  "MissionName": "Random_ThreepWood",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 1,
+  "Height": 450,
+  "Speed": 25,
+  "Container": "Random",
+  "DropLocation": {
+    "x": 9094.285714285714285714285714,
+    "z": 7440,
+    "Name": "Threepwood",
+    "Radius": 200
+  },
+  "Loot": [],
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1
+}

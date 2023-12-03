@@ -1,0 +1,23 @@
+{
+  "Enabled": 1,
+  "Weight": 300,
+  "MissionMaxTime": 1200,
+  "MissionName": "Random_Threepwood2",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 1,
+  "Height": 450,
+  "Speed": 25,
+  "Container": "Random",
+  "DropLocation": {
+    "x": 8742.857142857142857142857143,
+    "z": 7805.7142857142857142857142857,
+    "Name": "Threepwood",
+    "Radius": 200
+  },
+  "Loot": [],
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1
+}

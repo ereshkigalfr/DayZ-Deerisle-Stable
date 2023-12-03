@@ -1,0 +1,23 @@
+{
+  "Enabled": 1,
+  "Weight": 345,
+  "MissionMaxTime": 1200,
+  "MissionName": "Random_Portland",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 1,
+  "Height": 450,
+  "Speed": 25,
+  "Container": "Random",
+  "DropLocation": {
+    "x": 6140,
+    "z": 14566.666666666666666666666667,
+    "Name": "Portland",
+    "Radius": 350
+  },
+  "Loot": [],
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1
+}

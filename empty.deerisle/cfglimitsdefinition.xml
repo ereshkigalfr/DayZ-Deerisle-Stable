@@ -41,9 +41,12 @@
 		<usage name="PlantsC" />		
 		<usage name="Special"/>
 		<usage name="SMK"/>
-        <usage name="Lunapark"/>
         <usage name="Underground"/>		
 		<usage name="Historical"/>
+		<usage name="Fortknox"/>
+		<usage name="Mine"/>
+		<usage name="Temple"/>
+		<usage name="Civilian"/>
 	</usageflags>
 	<valueflags>
 		<value name="Tier1"/>

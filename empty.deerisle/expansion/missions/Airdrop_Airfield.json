@@ -1,0 +1,23 @@
+{
+  "Enabled": 1,
+  "Weight": 325,
+  "MissionMaxTime": 1200,
+  "MissionName": "Random_Airfield",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 1,
+  "Height": 450,
+  "Speed": 25,
+  "Container": "Random",
+  "DropLocation": {
+    "x": 5490,
+    "z": 3505,
+    "Name": "Airfield",
+    "Radius": 300
+  },
+  "Loot": [],
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1
+}
