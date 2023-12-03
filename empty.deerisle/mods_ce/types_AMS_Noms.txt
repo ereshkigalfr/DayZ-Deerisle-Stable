@@ -1,9 +1,0 @@
-AMS_Ai2
-AMS_AntiSept
-AMS_BandageBox
-AMS_GasMaskGP21
-AMS_GasMaskGP21_Filter
-AMS_Heatpack
-AMS_MedChest_Red
-AMS_MFAK
-AMS_Whistle

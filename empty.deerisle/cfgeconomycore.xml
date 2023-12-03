@@ -1,79 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <economycore>
-  <classes>
-    <rootclass name="DefaultWeapon" />
-    <rootclass name="DefaultMagazine" />
-    <rootclass name="Inventory_Base" />
-    <rootclass name="HouseNoDestruct" reportMemoryLOD="no" />
-    <rootclass name="SurvivorBase" reportMemoryLOD="no" act="character" />
-    <rootclass name="DZ_LightAI" reportMemoryLOD="no" act="character" />
-    <rootclass name="CarScript" reportMemoryLOD="no" act="car" />
-  </classes>
-  <defaults>
-    <default name="dyn_radius" value="30" />
-    <default name="dyn_smin" value="0" />
-    <default name="dyn_smax" value="0" />
-    <default name="dyn_dmin" value="1" />
-    <default name="dyn_dmax" value="5" />
-    <default name="log_ce_loop" value="false" />
-    <default name="log_ce_dynamicevent" value="false" />
-    <default name="log_ce_vehicle" value="false" />
-    <default name="log_ce_lootspawn" value="false" />
-    <default name="log_ce_lootcleanup" value="false" />
-    <default name="log_ce_lootrespawn" value="false" />
-    <default name="log_ce_statistics" value="false" />
-    <default name="log_ce_zombie" value="false" />
-    <default name="log_ce_animal" value="false" />
-    <default name="log_storageinfo" value="false" />
-    <default name="log_hivewarning" value="true" />
-    <default name="log_missionfilewarning" value="true" />
-    <default name="save_events_startup" value="true" />
-    <default name="save_types_startup" value="true" />
-  </defaults>
-  <ce folder="expansion_ce">
-    <file name="expansion_types.xml" type="types" />
-    <file name="expansion_spawnabletypes.xml" type="spawnabletypes" />
-    <file name="expansion_events.xml" type="events" />
-  </ce>
-  <ce folder="mods_ce">
-    <file name="mmg_types_alpine.xml" type="types" />
-    <file name="mmg_types_AREO.xml" type="types" />
-    <file name="mmg_types_atacs.xml" type="types" />
-    <file name="mmg_types_black.xml" type="types" />
-    <file name="mmg_types_carbines.xml" type="types" />
-    <file name="mmg_types_dark_woodland.xml" type="types" />
-    <file name="mmg_types_ED.xml" type="types" />
-    <file name="mmg_types_EMR.xml" type="types" />
-    <file name="mmg_types_EMR_H.xml" type="types" />
-    <file name="mmg_types_erdl.xml" type="types" />
-    <file name="mmg_types_green.xml" type="types" />
-    <file name="mmg_types_Grey_Camo.xml" type="types" />
-    <file name="mmg_types_MARPAT.xml" type="types" />
-    <file name="mmg_types_multicam.xml" type="types" />
-    <file name="mmg_types_multicam_tropic.xml" type="types" />
-    <file name="mmg_types_multicamblack.xml" type="types" />
-    <file name="mmg_types_NBC+NVG.xml" type="types" />
-    <file name="mmg_types_NWU.xml" type="types" />
-    <file name="mmg_types_patches.xml" type="types" />
-    <file name="mmg_types_police.xml" type="types" />
-    <file name="mmg_types_Red_Rose.xml" type="types" />
-    <file name="mmg_types_Stick.xml" type="types" />
-    <file name="mmg_types_tan.xml" type="types" />
-    <file name="mmg_types_ucp.xml" type="types" />
-    <file name="mmg_types_WINTER.xml" type="types" />
-    <file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
-    <file name="SNAFU_types.xml" type="types" />
-    <file name="snafuspawnabletypes25percent.xml" type="spawnabletypes" />
-    <file name="moremoney_types.xml" type="types" />
-    <file name="moremoney_cfgspawnabletypes.xml" type="spawnabletypes" />
-    <file name="CustomsVehiclesSpawns_events.xml" type="events" />
-    <file name="helipad_types_types.xml" type="types" />
-    <file name="types_AMS.xml" type="types" />
-    <file name="cfgspawnabletypes_AMS.xml" type="spawnabletypes" />
-    <file name="BMW_types.xml" type="types" />
-    <file name="BMW_spawnabletypes.xml" type="spawnabletypes" />
-    <file name="paragon_storage_types.xml" type="types" />
-    <file name="WindstridesClothing_types.xml" type="types" />
-    <file name="BBP_Items_types.xml" type="types" />
-  </ce>
+	<classes>
+<!--
+These are rootclasses to be used by economy.
+Do not forget to add attribute act="character", if root class represents character (player, infected, animal)
+Do not forget to add attribute act="car", if root class represents moveable vehicles
+-->
+		<rootclass name="DefaultWeapon" /> <!-- weapons -->
+		<rootclass name="DefaultMagazine" /> <!-- magazines -->
+		<rootclass name="Inventory_Base" /> <!-- inventory items -->
+		<rootclass name="HouseNoDestruct" reportMemoryLOD="no" /> <!-- houses, wrecks -->
+		<rootclass name="SurvivorBase" act="character" reportMemoryLOD="no" /> <!-- player characters -->
+		<rootclass name="DZ_LightAI" act="character" reportMemoryLOD="no" /> <!-- infected, animals -->
+		<rootclass name="CarScript" act="car" reportMemoryLOD="no" /> <!-- cars (sedan, hatchback, transitBus, V3S, ...) -->
+	</classes>
+	<defaults>
+		<default name="dyn_radius" value="30" />
+		<default name="dyn_smin" value="0" />
+		<default name="dyn_smax" value="0" />
+		<default name="dyn_dmin" value="1" />
+		<default name="dyn_dmax" value="5" />
+		<default name="log_ce_loop" value="false"/>
+		<default name="log_ce_dynamicevent" value="false"/>
+		<default name="log_ce_vehicle" value="false"/>
+		<default name="log_ce_lootspawn" value="false"/>
+		<default name="log_ce_lootcleanup" value="false"/>
+		<default name="log_ce_lootrespawn" value="false"/>
+		<default name="log_ce_statistics" value="false"/>
+		<default name="log_ce_zombie" value="false"/>
+		<default name="log_ce_animal" value="false"/>
+		<default name="log_storageinfo" value="false"/>
+		<default name="log_hivewarning" value="true"/>
+		<default name="log_missionfilewarning" value="true"/>
+		<default name="save_events_startup" value="true"/>
+		<default name="save_types_startup" value="true"/>
+	</defaults>
 </economycore>
