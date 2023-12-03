@@ -1,0 +1,23 @@
+{
+  "Enabled": 1,
+  "Weight": 934.0,
+  "MissionMaxTime": 1200,
+  "MissionName": "Random_Kushville",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 1,
+  "Height": 450.0,
+  "Speed": 25.0,
+  "Container": "Random",
+  "DropLocation": {
+    "x": 7553.3333333333333333333333333,
+    "z": 3904.4444444444444444444444444,
+    "Name": "Kushville",
+    "Radius": 255
+  },
+  "Loot": [],
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1
+}

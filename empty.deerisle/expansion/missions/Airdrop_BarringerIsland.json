@@ -1,0 +1,23 @@
+{
+  "Enabled": 1,
+  "Weight": 200,
+  "MissionMaxTime": 1200,
+  "MissionName": "Random_BarringerNorth",
+  "Difficulty": 0,
+  "Objective": 0,
+  "Reward": "",
+  "ShowNotification": 1,
+  "Height": 450,
+  "Speed": 25,
+  "Container": "Random",
+  "DropLocation": {
+    "x": 13000,
+    "z": 3640,
+    "Name": "North Barringer Island",
+    "Radius": 500
+  },
+  "Loot": [],
+  "Infected": [],
+  "ItemCount": -1,
+  "InfectedCount": -1
+}

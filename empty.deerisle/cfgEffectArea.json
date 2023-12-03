@@ -33,7 +33,7 @@
 				"NegHeight": 50,
 				"InnerRingCount": 5,
 				"InnerPartDist": 40,
-				"OuterRingToggle": true, 
+				"OuterRingToggle": 1, 
 				"OuterPartDist": 50, 
 				"OuterOffset": 0, 
 				"VerticalLayers": 2,
